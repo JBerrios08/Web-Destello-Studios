@@ -15,6 +15,7 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
     <!-- MDB -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -37,8 +38,7 @@
                             Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="productos.html"><i class="fas fa-box"></i>
-                            Productos</a>
+                        <a class="nav-link active" aria-current="page" href="productos.html"><i class="fas fa-box"></i> Productos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="servicios.html"><i class="fas fa-concierge-bell"></i> Servicios</a>
@@ -47,12 +47,12 @@
                         <a class="nav-link" href="contacto.html"><i class="fas fa-envelope"></i> Contacto</a>
                     </li>
                 </ul>
-                <form class="d-flex input-group w-auto">
-                    <input type="search" class="form-control" placeholder="Buscar" aria-label="Search" />
-                    <button class="btn btn-outline-danger" type="button" data-mdb-ripple-color="dark">
-                        <i class="fas fa-search"></i> Buscar
-                    </button>
-                </form>
+                <!-- Add FAQ link on the right -->
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 animate__animated animate__pulse">
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html"><i class="fas fa-question-circle"></i> FAQ</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
